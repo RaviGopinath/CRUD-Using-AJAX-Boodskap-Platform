@@ -1,0 +1,80 @@
+body{
+  /* background-color: orangered; */
+  /* color:#fff; */
+}
+form{
+  background-color: darkcyan;
+  width: 550px;
+  line-height: 42px;
+  margin-left: 336px;
+  font-size: 30px;
+}
+h1{
+  font-size: 35px;
+  margin-left: 40%;
+}
+#tr-1{
+  height: 60px;
+  background-color: cornflowerblue;
+}
+.edit-tag{
+  margin-left: 44%;
+}
+#trow{
+  line-height: 70px;
+  text-align: center;
+}
+table{
+  background-color: darkslateblue;
+  color: #fff;
+  /* margin-top: 60px; */
+}
+#email{
+  position: absolute;
+    left: 637px;
+    margin-top: -22px;
+}
+#inputGroupPrepend{
+  position: absolute;
+  margin-left: 261px;
+  margin-top: -33px;
+}
+#fname{
+  margin-left: 148px;
+}
+#lname{
+  margin-left: 154px;
+}
+#phone{
+  margin-left: 107px;
+}
+#place{
+  margin-left: 222px;
+}
+#pincode{
+  margin-left: 191px;
+}
+#update-btn{
+  background-color: blue;
+    font-size: 20px;
+    margin-left: 542px;
+    margin-top: 12px;
+}
+#back-btn{
+  background-color: darkslateblue;
+  font-size: 20px;
+  margin-left: 90%;
+  border-radius: 10px;
+  height: 35px;
+  /* margin-top: 31px; */
+}
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    /* margin-top: 22px; */
+}
+button:hover{
+  background-color: green;
+  cursor: pointer;
+}

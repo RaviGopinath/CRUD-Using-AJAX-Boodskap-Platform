@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="update.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  </head>
+  <body>
+    <h1>USER DATA</h1>
+    <a href="index.html"><button id="back-btn">BACK</button></a>
+    
+    <table id="table2" border="1px solid">
+      <thead>
+          <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+              <th>Phone Number</th>
+              <th>Education</th>
+              <th>Place</th>
+              <th>Pincode</th>
+              <th>Edit</th>
+              <th>Update</th>
+              <th>Delete</th>
+          </tr>
+      </thead>
+  </table>
+
+    <h1 class="edit-tag">Edit ID</h1>
+    <form class="row g-3" autocomplete="off">
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="name" class="form-label" class="fname-label"
+              >First Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="fname"
+              class="fname-input"
+              required
+            />
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="name" class="form-label" class="lname-label"
+              >Last Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="lname"
+              class="lname-label"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="contaner">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="validationCustomEmail" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="Phone" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phone" required />
+          </div>
+        </div>
+      </div>
+
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="Education" class="form-label"
+              >Education Qualification</label
+            >
+           <input type="text" class="form-control" id="education">
+          </div>
+        </div>
+      </div>
+
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="Place" class="form-label" id="placee">Place</label>
+            <input type="text" class="form-control" id="place" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <label for="inputZip" class="form-label">Pincode</label>
+            <input type="text" class="form-control" id="pincode" />
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- <div class="col-12 pt-3">
+      <button type="submit" class="btn btn-primary" onclick="updateId()" id="update-btn">
+        Update
+      </button> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+    <script src="table.js"></script>
+  </body>
+</html>
